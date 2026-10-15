@@ -1,0 +1,3 @@
+<APIProxy name="hello">
+  <Description>Hello world proxy for the local emulator</Description>
+</APIProxy>

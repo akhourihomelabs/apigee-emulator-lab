@@ -1,0 +1,7 @@
+<AssignMessage name="AM-Hello">
+  <Set>
+    <Payload contentType="application/json">{"message":"hello from Apigee emulator","path":"{proxy.pathsuffix}","verb":"{request.verb}"}</Payload>
+    <StatusCode>200</StatusCode>
+  </Set>
+  <AssignTo createNew="false" transport="http" type="response"/>
+</AssignMessage>
